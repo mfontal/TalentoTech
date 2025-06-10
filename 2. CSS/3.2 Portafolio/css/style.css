@@ -1,0 +1,68 @@
+/* Estilos generales */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para encabezado */
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0.1em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+main{
+    padding: 2em;
+    background-color: white;
+    margin: 1em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0 ,0, 0.1);
+}
+
+article{
+    margin: 2em;
+}
+
+article header h2{
+    margin: 0;
+    color: #333;
+}
+
+article p{
+    line-height: 1.6;
+}
+
+/* Estilos para el pie de pagina */
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
