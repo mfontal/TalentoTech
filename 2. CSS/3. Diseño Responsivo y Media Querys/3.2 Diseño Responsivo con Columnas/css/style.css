@@ -1,0 +1,50 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #005f99;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+.columna {
+    margin-bottom: 1em;
+}
+
+/* Media Queries para diseño responsivo */
+@media (min-width: 600px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .columna {
+        width: 48%;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-color: #f0f8ff;
+    }
+    header, footer {
+        text-align: left;
+        padding: 1em 2em;
+    }
+    main {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .columna {
+        width: 48%;
+    }
+}

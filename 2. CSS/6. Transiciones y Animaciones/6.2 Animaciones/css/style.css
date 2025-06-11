@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: example 2s infinite alternate;
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+        transform: translateX(0);
+    }to{
+        background-color: yellow;
+        transform: translateX(100px);
+    }
+
+}

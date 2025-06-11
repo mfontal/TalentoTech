@@ -1,0 +1,17 @@
+ body{
+    background: url(../Images/alien\ landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ h1{
+    color: aqua;
+ }
+
+ p{
+    color: white;
+ }
