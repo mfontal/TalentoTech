@@ -5,4 +5,3 @@ function esPar(numero) {
 let numero = 2
 
 console.log(`${numero} es ${esPar(numero) ? "par" : "impar"}`);
-
