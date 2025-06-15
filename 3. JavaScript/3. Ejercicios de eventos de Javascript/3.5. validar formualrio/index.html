@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Evento onsubmit</title>
+</head>
+
+<body>
+    <h1>Evento onsubmit</h1>
+    <form onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <input type="submit" value="Enviar">
+    </form>
+    <p id="error"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
